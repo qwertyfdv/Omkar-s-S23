@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" id="program">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prg.js">
+   
+</head>
+<body>
+    
+    <header>
+        <div class="head">
+            <div class="border">
+                <a href="Robot.html">
+            <div class="logo">
+            </div>
+        </a>
+        </div>
+            <div class="company">
+                <p class="on">Technocraft Industries Pvt Ltd.</p>
+            </div>
+            <div class="bell">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="switch">
+                <select name="Switch User" id="su">
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+            </select>
+            </div>
+        </div>
+    </header>
+    
+    <sidebar>
+        <div class="middle"> 
+         <div class="sideback">
+        <div class="list">
+            <ul>
+                <div class="border">
+                <li><a href="Program.html">‣  Genrate a Program</a></li><br>
+                
+                <li>‣  Tcp Overhang</li><br>
+                <li>‣  Report Program</li><br>
+                <li>‣  Non standard</li><br>
+                <li> <a href="profile.html">‣  Profile</a>  </li>      
+            </div>  
+            </ul>
+        </div>
+    </div>  
+    
+    <div class="pmmain">
+        <div class="pmhead">
+            <h1>Genrate  A  Program</h1>
+        </div>
+         
+        <div class="pminputone">
+            <div class="inone">
+                <select name="Enter type" id="inpo">
+                    <option value="none" selected disabled hidden>Enter a panel type</option>
+                    <option value="WT">WT</option>
+                    <option value="RAGHAVAN">RAGHAVAN</option>
+                    <option value="KALPTARU">KALPTARU</option>
+                    <option value="STDREV">STDREV</option>
+                </select>
+            </div>
+            <div class="inone"><input id="width" type="number" placeholder="Enter Width"></div>
+           <div class="inone"> <input id="length"  type="number" placeholder="Enter Length"></div>
+        </div>
+
+        <div class="pminputtwo">
+           <div class="inone"><input id="tool"  type="number" placeholder="Enter Tool"></div> 
+           <div class="inone"><input id="uframe"  type="number" placeholder="Enter Uframe"></div> 
+           <div class="inone"><input  id="ruframe" type="number" placeholder="Enter Refer Stich"></div> 
+        </div>
+           
+        <div class="pminputtre">
+           <div class="inone"><input  id="nuframe" type="number" placeholder="Enter Non refer stich"></div> 
+           <div class="inone"><input id= "pname" type="text" placeholder="Enter Name"></div>
+       <div class="inone"><button onclick="downloadTxtFile()" id="genb">Genrate</button></div>
+
+       <!-- <button onclick="downloadTxtFile()">Download as .txt</button> -->
+      
+        </div>
+
+       
+            
+        
+    </div>
+    
+     </div>     
+    </sidebar>
+<script src="prg.js"></script>
+</body>
+</html>
